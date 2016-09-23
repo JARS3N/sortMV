@@ -7,5 +7,9 @@ Author: J.Arsenault
 Maintainer: Who to complain to <JARS3N@GMAIL.COM>
 Description: sort mv xml data
 URL: https://github.com/JARS3N/PipeFish
+Imports:
+        dplyr,
+        rvest,
+        xml2
 License: none
 LazyData: TRUE
