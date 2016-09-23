@@ -5,7 +5,7 @@ Version: 0.0.1
 Date: 2016-09-23
 Author: J.Arsenault
 Maintainer: Who to complain to <JARS3N@GMAIL.COM>
-Description: sort mv xml data
+Description: Create tabular data from sorting machinevision xml data and pulling out the embeded html where are all the data is actually hidden.
 URL: https://github.com/JARS3N/sortMV
 Imports:
         dplyr,
