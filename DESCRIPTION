@@ -8,8 +8,8 @@ Maintainer: Who to complain to <JARS3N@GMAIL.COM>
 Description: sort mv xml data
 URL: https://github.com/JARS3N/PipeFish
 Imports:
-dplyr,
-xml2,
-rvest
+        dplyr,
+        xml2,
+        rvest
 License: none
 LazyData: TRUE
