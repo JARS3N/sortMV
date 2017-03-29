@@ -21,6 +21,11 @@ require(rvest)
   }
 
   b<-read_xml(xml)
+   check<-b %>%  
+   rvest::xml_nodes(.,"Details") %>% 
+   xml2::xml_text() %>% 
+   grepl("Could not find",.) %>% any()
+ if(check){return(c("FAILURE"))}
   Y<-  b %>%
     rvest::xml_nodes(.,"Details") %>%
     .[grepl("&lt;table",.)] %>%
